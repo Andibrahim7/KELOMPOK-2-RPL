@@ -40,6 +40,7 @@ if (isset($_GET['id'])) {
             <option value="1" <?php echo $note['kategori_id'] == 1 ? 'selected' : ''; ?>>Sekolah</option>
             <option value="2" <?php echo $note['kategori_id'] == 2 ? 'selected' : ''; ?>>Kantor</option>
             <option value="3" <?php echo $note['kategori_id'] == 3 ? 'selected' : ''; ?>>Pribadi</option>
+            <option value="4" <?php echo $note['kategori_id'] == 4 ? 'selected' : ''; ?>>kuliah</option>
             <!-- Tambah kategori lain sesuai kebutuhan -->
         </select>
         <button type="submit" class="btn btn-primary">Perbarui Catatan</button>
