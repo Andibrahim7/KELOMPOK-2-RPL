@@ -37,10 +37,10 @@ if (isset($_GET['id'])) {
         <input type="text" name="judul" value="<?php echo $note['judul']; ?>" required placeholder="Judul" class="form-control">
         <textarea name="catatan" required placeholder="Tulis catatan di sini..." class="form-control"><?php echo $note['catatan']; ?></textarea>
         <select name="kategori_id" class="form-control">
-            <option value="1" <?php echo $note['kategori_id'] == 1 ? 'selected' : ''; ?>>Sekolah</option>
+            <option value="1" <?php echo $note['kategori_id'] == 1 ? 'selected' : ''; ?>>Kuliah</option>
             <option value="2" <?php echo $note['kategori_id'] == 2 ? 'selected' : ''; ?>>Kantor</option>
             <option value="3" <?php echo $note['kategori_id'] == 3 ? 'selected' : ''; ?>>Pribadi</option>
-            <option value="4" <?php echo $note['kategori_id'] == 4 ? 'selected' : ''; ?>>kuliah</option>
+            <option value="4" <?php echo $note['kategori_id'] == 4 ? 'selected' : ''; ?>>Sekolah</option>
             <!-- Tambah kategori lain sesuai kebutuhan -->
         </select>
         <button type="submit" class="btn btn-primary">Perbarui Catatan</button>
