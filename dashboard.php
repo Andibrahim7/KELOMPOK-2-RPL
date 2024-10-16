@@ -80,6 +80,7 @@ $notesResult = $conn->query($query);
             <ul>
                 <li><a href="dashboard.php" class="active">Dashboard</a></li>
                 <li><a href="add_note.php">Tambah Catatan</a></li>
+                <li><a href="login.php">Keluar</a></li>
             </ul>
         </div>
         <div class="main-content">
